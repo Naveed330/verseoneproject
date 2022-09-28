@@ -1,0 +1,241 @@
+.ui-div{
+    position: relative;
+    background-image: url(../assets/ui.png);
+    height: auto;
+    min-height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat
+  }
+  .ui-img{
+      width: 100%;
+      height: auto;
+  }
+  .ui-content{
+      font-size: 50px;
+      font-weight: 600;
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  .sec-2{
+      background-image: url("../assets//ui-background.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      /* height: auto;
+      min-height: 300px; */
+  
+  }
+  .sec2-line{
+      padding-top: 30px;
+  
+      color:white;
+      font-size: 18px;
+  }
+  .ui-main-heading{
+      text-align: center;
+      color: white;
+      font-size: 64px;
+      padding-top: 30px;
+  
+  }
+  .ui-btn-grid{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 300px;
+      width: 100%;
+      
+  }
+  .download-btn{
+      background-color: white;
+      border: none;
+      padding: 10px 0px ;
+      width: 230px;
+      font-size: 20px;
+      color: #EE0979;
+      border-radius: 30px;
+  }
+  .download-btn:hover{
+      background-color: white;
+      color: #EE0979;
+      border: none;
+    
+  }
+  .sec-3 {
+      margin-top: 150px;
+  }
+  .sec3-batch{
+      color: white;
+      font-size: 20px;
+      background: linear-gradient(94.22deg, #EE0979 0%, #FF6A00 100%);
+      padding: 5px;
+      width: 110px;
+  }
+  .sec3-main-heading{
+      color:#3D2C56 ;
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 40px;
+  }
+  .sec3-line{
+      color: #7E7E7E;
+      font-size: 16px;
+  }
+  #sec3-grid{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  
+  .sec3-grid{
+      width: 100%;
+  } 
+  .sec3-grid img{
+      width: 100%;
+  }
+  .sec4{
+      margin-top: 150px;
+  }
+  .sec4-img-div{
+      display: flex;
+      align-items: center;
+      height: 600px;
+  }
+  .sec4-batch{
+      color: white;
+      font-size: 20px;
+      background: linear-gradient(94.22deg, #EE0979 0%, #FF6A00 100%);
+      padding:5px;
+      width: 100%;
+      max-width: 380px;
+      
+  
+  }
+  .SEC4-MAIN-HEADING{
+      color: #3D2C56;
+      font-size: 40px;
+      font-weight: 600;
+  }
+  .sec4-heading{
+      font-size: 16px;
+      color: #7E7E7E;
+  }
+  .sec5{
+      margin-top: 150px;
+  }
+  .sec5-batch{
+      color: white;
+      font-size: 20px;
+      background: linear-gradient(94.22deg, #EE0979 0%, #FF6A00 100%);
+      padding:5px;
+      width: 100%;
+      max-width: 200px;
+      
+  }
+  .sec5-main-heading{
+  
+      color: #3D2C56;
+      font-size: 40px;
+      font-weight: 600;
+  }
+  .sec6-main{
+      color:#3D2C56 ;
+      margin-top: 20px;
+      font-weight: 600;
+  }
+  .sec6-batch{
+      color: white;
+      font-size: 20px;
+      background: linear-gradient(94.22deg, #EE0979 0%, #FF6A00 100%);
+      padding:5px;
+      width: 100%;
+      max-width: 115px;
+  
+  }
+  .sec6{
+      margin-top: 150px;
+  }
+  .sec7{
+      margin-top: 150px;
+  }
+  .sec7-batch{
+      color: white;
+      font-size: 20px;
+      background: linear-gradient(94.22deg, #EE0979 0%, #FF6A00 100%);
+      padding:5px;
+      width: 100%;
+      max-width: 160px;
+  }
+  @media (max-width:990px) {
+      .sec3-line{
+          font-size: 12px;
+      } 
+      .sec4-heading{
+          font-size: 12px;
+      }
+      .sec-3{
+          margin-top: 70px;
+  
+      }
+      .sec4{
+          margin-top: 70px;
+  
+      }
+      .sec5{
+          margin-top: 70px;
+  
+      }
+      .sec6{
+          margin-top: 70px;
+  
+      }
+      .sec7{
+          margin-top: 70px;
+  
+      }
+      
+   
+      
+  
+  
+      
+  }
+  @media (max-width:768px) {
+      .sec3-line{
+          font-size: 16px;
+      } 
+      .sec4-heading{
+          font-size: 16px;
+      }
+      .sec-3{
+          margin-top: 50px;
+  
+      }
+      .sec4{
+          margin-top: 50px;
+  
+      }
+      .sec5{
+          margin-top: 50px;
+  
+      }
+      .sec6{
+          margin-top: 50px;
+  
+      }
+      .sec7{
+          margin-top: 70px;
+  
+      }
+      
+   
+      
+  
+  
+      
+  }
+  

@@ -1,0 +1,19 @@
+.image_path {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our_services{
+    color:"#3D2C56";
+    text-align: center;
+    margin-top: 20px;
+    font-size: 64px;
+}
+@media(max-width:768px){
+    .our_services{
+    color:"#3D2C56";
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    }
+}

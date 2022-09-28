@@ -1,0 +1,247 @@
+.main-news-heading{
+    color: #3D2C56;
+    font-size: 64px;
+    font-weight: 600;
+}
+.main-news{
+    font-weight: 600;
+    color: #3D2C56;
+    font-size: 40px;
+
+}
+.musical-news{
+    display: flex !important;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.date{
+    color: #3D2C56;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+.bread-crumbs{
+    margin-left: 80px;
+}
+.news-img-div{
+    /* height: 700px !important; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.news-img-div img{
+    width: 100%;
+}
+.news-content{
+    color: #3D2C56;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.news2sec img{
+    width: 100%;
+    margin-top: 50px;
+
+}
+.news-sec3{
+    color: #000000;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-top: 80px;
+
+}
+.card-main{
+    display: flex;
+   justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px !important;
+}
+.card-div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.card-text{
+    color: #3D2C56;
+    font-size: 24px;
+    font-weight: 700;
+}
+.card-paragraph{
+    color:#7E7E7E ;
+    font-size: 20px;
+    font-weight: 300;
+}
+.card-data{
+    color: #3D2C56;
+    font-size: 20px;
+    font-weight: 300;
+    border: none;
+    background: none;
+}
+.search{
+    height: 50px;
+    border: 10px solid white;
+    box-shadow: 0px 5px 22px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    outline: none;
+}
+.c-data{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    background: none;
+}
+.c-paragraph{
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+
+}
+.c-text{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+.card-grid{
+    /* background: linear-gradient(94.22deg, #EE0979 0%, #FF6A00 100%); */
+    background-color: transparent;
+
+}
+#sec-nwes1{
+    background: linear-gradient(94.22deg, #EE0979 0%, #FF6A00 100%);
+    border-radius: 20px;
+
+}
+.MAIN-NEWS-DIV{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+}
+.div-input{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+   
+}
+.span-icon{
+    position: absolute;
+    font-size: 20px;
+    color: #555555;
+   
+}
+.div-input input{
+    padding: 20px 25px;
+}
+#c-text{
+    font-size: 40px !important;
+}
+.pagination-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.pagination :focus-within {
+    border: none !important;
+    --bs-pagination-border-color: none;
+}
+.pagination{
+    --bs-pagination-border-color: none !important;
+
+}
+.page-link{
+    color:#EE0979 !important ;
+    font-size: 20px;
+}
+@media (max-width:1400px) {
+    .card-width{
+        width: 27rem !important;
+    }
+    .array-card{
+        width: 27rem !important;
+
+    }
+    
+}
+@media (max-width:990px) {
+    .card-width{
+        width: 32rem !important;
+    }
+    .card-main{
+        justify-content: center!important;
+    }
+    
+}
+@media (max-width:650px) {
+    .bread-crumbs {
+        margin-left: 40px;
+    }
+  
+
+    
+}
+@media (max-width:530px) {
+    .main-news-heading{
+        font-size: 50px;
+    }
+    .bread-crumbs {
+        margin-left: 20px;
+    }
+
+    
+}
+@media (max-width:510px) {
+    .main-news-heading{
+        font-size: 45px;
+    }
+
+    
+}
+@media (max-width:465px) {
+    .main-news-heading{
+        font-size: 40px;
+    }
+    .main-news{
+        font-size: 34px;
+    }
+
+    
+}
+@media (max-width:415px) {
+    .main-news-heading{
+        font-size: 35px;
+    }
+
+    
+}
+@media (max-width:370px) {
+    .main-news-heading{
+        font-size: 32px;
+    }
+
+    
+}
+@media (max-width:350px) {
+    .main-news-heading{
+        font-size: 35px;
+    }
+    #c-text{
+        font-size: 24px !important;
+    }
+
+    
+}
+@media (max-width:350px) {
+    .BREAD-ITEM{
+        font-size: 12px;
+    }
+
+
+    
+}

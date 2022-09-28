@@ -1,0 +1,126 @@
+.video_title {
+  color: "#3D2C56";
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 20px;
+}
+.videoimage {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  padding: 0px 10px;
+}
+.videoimage img {
+  width: 100%;
+}
+.Operation_h1 {
+  color: #3d2c56;
+  text-align: center;
+  font-weight: 500;
+  font-size: 50px;
+}
+.section_dsp {
+  background: linear-gradient(0deg, #3d2c56, #3d2c56),
+    linear-gradient(94.22deg, #ee0979 0%, #ff6a00 100%);
+  padding: 50px 0px;
+}
+.DSP_class_h1 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 64px;
+  text-align: center;
+}
+.a_image img {
+  width: 100%;
+  max-width: 180px;
+}
+.a_image {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 200px;
+  margin-top: 2px;
+}
+.tempus {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+}
+.accodian_para {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.dist_img img {
+  width: 100%;
+}
+.stepper_class {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: #ee0979 !important;
+}
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+  color: #ee0979 !important;
+}
+.step_image img {
+  width: 70px;
+}
+.step_whole_mutual{
+  display: flex;
+}
+@media (max-width: 1030px) {
+  .a_image {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 2px;
+  }
+}
+
+@media (max-width: 768px) {
+  .video_title {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .Operation_h1 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .DSP_class_h1 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .a_image {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 2px;
+  }
+  .accodian_para {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 280px) {
+  .video_title {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .Operation_h1 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .DSP_class_h1 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+}

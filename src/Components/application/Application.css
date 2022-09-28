@@ -1,0 +1,353 @@
+.application-div {
+    width: 100%;
+}
+
+.application-pic {
+    /* width: 100%; */
+    background-image: url("../assets/application.png");
+    height: 700px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-position: fixed;
+
+}
+
+.application-heading {
+   
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+    padding-top: 70px ;
+    /* position: absolute;
+    top: 80px;
+    left: 120px; */
+
+}
+
+.application2 {
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+    padding-top:20px ;
+    padding-left: 190px;
+    /* position: absolute;
+    top: 180px;
+    left: 350px; */
+
+}
+
+.application-content {
+    color: white;
+    font-size: 20px;
+    font-weight: 400px;
+    margin-top: 80px;
+
+    /* position: absolute;
+    top: 500px;
+    left: 120px; */
+
+}
+.content{
+    text-align: center;
+    font-size:48px ;
+    color: #3D2C56 !important;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.line-content{
+    color: #555555;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+
+}
+.input-bars{
+    width: 100%;
+    border-radius: 30px;
+    outline: none;
+    border: 0.5px solid #555555;
+    padding: 8px 24px;
+    background-color: white !important;
+}
+.input-bars::placeholder{
+    color: #EE0979;
+}
+.input-bar{
+    border-radius: 30px;
+    outline: none;
+    border: 0.5px solid #555555;
+    padding: 8px 24px;
+    background-color: white !important;
+
+}
+.input-bar::placeholder{
+    color:  #EE0979;
+}
+.form-label{
+    color:#3D2C56 ;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-weight: 600;
+
+}
+.btn-div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding: 0px 20px;
+}
+.btn-line{
+    color: #3D2C56;
+    font-size: 20px;
+    font-weight: 700;
+}
+#input{
+    width: 46%;
+}
+.login{
+    background-color: #EE0979;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+
+}
+.login:hover{
+    background-color: #EE0979;
+    color: white;
+
+}
+
+/* @media (max-width:1500px) {
+    .application-heading {
+        padding: 0px !important;
+        font-size: 60px;
+    }
+ .application2 {
+        padding: 0px !important;
+        font-size: 60px;
+ }
+ .application-content {
+        top: 380px !important;
+}
+
+} */
+
+/* @media (max-width:1350px) {
+    .application-heading {
+        padding: 0px !important;
+        font-size: 50px;
+ }
+.application2 {
+        padding: 0px !important;
+        font-size: 60px;
+        left: 295px;
+        top: 159px;
+
+    }
+ .application-content {
+        top: 355px !important;
+ }
+
+} */
+/* @media (max-width:1250px) {
+    .application-heading {
+        padding: 0px !important;
+        font-size: 50px;
+        top: 50px !important;
+ }
+ .application2 {
+        padding: 0px !important;
+        font-size: 50px;
+        top: 129px;
+        left: 279px;
+ }
+ .application-content {
+        top: 320px !important;
+ }
+
+} */
+
+/* @media (max-width:1100px) {
+    .application-heading {
+        padding: 0px !important;
+        font-size: 50px;
+        top: 60px !important;
+        line-height: 80px !important;
+ }
+ .application2 {
+        padding: 0px !important;
+        font-size: 50px;
+
+    }
+ .application-content {
+        top: 290px !important;
+        font-size: 15px;
+ }
+
+} */
+
+/* @media (max-width:1030px) {
+    .application-heading {
+        padding: 0px !important;
+        font-size: 50px;
+        top: 60px !important;
+        line-height: 60px !important;
+ }
+
+    .application2 {
+        padding: 0px !important;
+        font-size: 50px;
+
+    }
+
+    .application-content {
+        top: 250px !important;
+        font-size: 15px;
+ }
+
+} */
+
+@media (max-width:880px) {
+    .application-heading {
+        padding: 0px !important;
+        font-size: 40px;
+        top: 60px !important;
+        line-height: 60px !important;
+ }
+
+    .application2 {
+        padding: 0px !important;
+        font-size: 40px;
+        top: 115px;
+        left: 251px;
+ }
+
+    .application-content {
+        top: 210px !important;
+        font-size: 13px;
+    }
+    .content{
+        font-size: 40px;
+    }
+
+}
+
+@media (max-width:790px) {
+    .application-heading {
+        padding: 0px !important;
+        font-size: 40px;
+        top: 60px !important;
+        line-height: 40px !important;
+  }
+
+    .application2 {
+        padding: 0px !important;
+        font-size: 40px;
+        top: 106px;
+ }
+
+    .application-content {
+        top: 190px !important;
+        font-size: 12px;
+ }
+
+}
+
+@media (max-width:700px) {
+    .application-heading {
+        padding: 0px !important;
+        font-size: 30px;
+        top: 60px !important;
+        line-height: 40px !important;
+        left: 76px;
+ }
+
+    .application2 {
+        padding: 0px !important;
+        font-size: 30px;
+        left: 174px;
+        top: 100px;
+}
+
+    .application-content {
+        top: 160px !important;
+        font-size: 12px;
+        left: 76px !important;
+
+ }
+
+}
+
+@media (max-width:630px) {
+    .application-heading {
+        padding: 0px !important;
+        font-size: 30px;
+        top: 60px !important;
+        line-height: 40px !important;
+        left: 60px;
+  }
+
+    .application2 {
+        padding: 0px !important;
+        font-size: 30px;
+        left: 155px;
+ }
+
+    .application-content {
+        top: 160px !important;
+        font-size: 10px;
+        left: 60px !important;
+ }
+
+    .application-pic img {
+        height: 300px;
+    }
+    .content{
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width:395px) {
+    .application-heading {
+        padding: 0px !important;
+        font-size: 20px;
+        top: 60px !important;
+        line-height: 20px !important;
+        left: 30px;
+ }
+
+    .application2 {
+        padding: 0px !important;
+        font-size: 20px;
+        left: 96px;
+        top: 84px;
+ }
+
+    .application-content {
+        top: 120px !important;
+        font-size: 8px;
+        left: 30px !important;
+        top: 131px !important;
+ }
+
+    .application-pic img {
+        height: 250px;
+    }
+    .content{
+        font-size: 25px;
+    }
+
+}
+@media (max-width:510px) {
+    #input{
+        width: 100%;
+  }
+ #inputs{
+    width: 100%;
+ }
+}

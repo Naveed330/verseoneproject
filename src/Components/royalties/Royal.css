@@ -1,0 +1,60 @@
+.Digital_music {
+  content: "";
+}
+.onearrow {
+  content: "";
+}
+.twoarrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.Publishing {
+  margin-top: 50px;
+}
+.threearrow{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+.earn_money{
+  color:"#3D2C56";
+  text-align: center;
+  margin-top: 20px;
+  font-size: 40px;
+}
+@media (max-width: 768px) {
+  .Digital_music {
+    text-align: center;
+  }
+  .onearrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .Publishing {
+    text-align: center;
+  }
+  .twoarrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .artistes {
+    text-align: center;
+  }
+  .threearrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.earn_money{
+  color:"#3D2C56";
+  text-align: center;
+  margin-top: 20px;
+  font-size: 32px;
+}
+}

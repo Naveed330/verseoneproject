@@ -1,0 +1,143 @@
+.services-main-heading {
+  color: white;
+  font-weight: 600;
+  font-size: 64px;
+  padding-top: 20px !important;
+}
+.service-div {
+  position: relative;
+  background-image: url(../assets/service.png);
+  height: auto;
+  min-height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.round1 {
+  height: 240px;
+  width: 240px;
+  background-color: #ee0979;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+.round-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 240px;
+}
+.round2 {
+  background-color: #ff6a00;
+  font-size: 16px;
+  height: 192px;
+  width: 192px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+.round3-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  gap: 30px;
+  flex-wrap: wrap !important;
+}
+
+.bubble {
+  height: 190px;
+  width: 190px;
+  border-radius: 50%;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #fff;
+}
+@media (max-width: 1070px) {
+  #row5 {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 850px) {
+  #row4 {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 640px) {
+  #row3 {
+    margin-top: 20px;
+  }
+  #bubble3 {
+    display: none;
+  }
+}
+
+@media (max-width: 574px) {
+  .round3-main {
+    margin-top: 30px;
+  }
+  .ui-content {
+    font-size: 45px;
+  }
+}
+@media (max-width: 520px) {
+  .ui-content {
+    font-size: 40px;
+  }
+  .services-main-heading {
+    font-size: 55px !important;
+  }
+  .sec2-line {
+    font-size: 15px;
+  }
+}
+@media (max-width: 450px) {
+  .ui-content {
+    font-size: 35px;
+  }
+  .services-main-heading {
+    font-size: 50px !important;
+  }
+  .sec2-line {
+    font-size: 15px;
+  }
+}
+@media (max-width: 420px) {
+  .round3-main {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .ui-content {
+    font-size: 27px;
+  }
+  .services-main-heading {
+    font-size: 35px !important;
+  }
+  .sec2-line {
+    font-size: 13px;
+  }
+}
+@media (max-width: 310px) {
+  .ui-content {
+    font-size: 24px;
+  }
+  .services-main-heading {
+    font-size: 35px !important;
+  }
+  .sec2-line {
+    font-size: 13px;
+  }
+}

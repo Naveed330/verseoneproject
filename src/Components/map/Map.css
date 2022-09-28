@@ -1,0 +1,42 @@
+.section_div {
+  background: linear-gradient(94.22deg, #ee0979 0%, #ff6a00 100%);
+  padding: 40px 0px;
+  height: auto;
+}
+.Worldwide_h1 {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 64px;
+  color: white;
+}
+.mutul_position{
+    position: relative;
+}
+.map_image img {
+    margin-top: 20px;
+    width: 100%;
+}
+.enim{
+    width: 100%;
+    max-width: 200px;
+    position: absolute;
+    bottom: 50px;
+}
+@media(max-width:768px){
+    .Worldwide_h1 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 64px;
+        color: white;
+        text-align: center;
+      }
+      .enim{
+        width: 100%;
+        max-width: 200px;
+        position: absolute;
+        top: -10px;
+    }
+    .Worldwide_h1{
+      font-size: 20px;
+    }
+}

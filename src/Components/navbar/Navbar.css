@@ -1,0 +1,26 @@
+.startbtn {
+  background: #ee0979;
+  border-radius: 24px;
+  border: 1px solid #ee0979;
+  padding: 6px 35px;
+}
+.startbtn:hover {
+  background: #ee0979;
+  border: 1px solid #ee0979;
+}
+.startbtn:focus {
+  background: #ee0979;
+  border: 1px solid #ee0979;
+}
+.startbtn:active {
+  background: #ee0979;
+  border: 1px solid #ee0979;
+}
+.logo_navbar{
+  content: "";
+}
+@media(max-width:280px){
+  .logo_navbar img{
+    width: 110px !important;
+  }
+}
