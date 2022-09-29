@@ -32,3 +32,21 @@ height: 750px;
    
     
 }  
+@media (max-width:500px) {
+    .main-heading{
+        font-size: 45px;
+        line-height: 70px ;
+
+    }
+
+    
+}
+@media (max-width:300px) {
+    .main-heading{
+        font-size: 40px;
+        line-height: 60px ;
+
+    }
+
+    
+}

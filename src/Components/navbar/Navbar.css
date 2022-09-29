@@ -19,6 +19,11 @@
 .logo_navbar{
   content: "";
 }
+@media(max-width:1110px){
+  .nav-data{
+    gap: 25px !important;
+  }
+}
 @media(max-width:280px){
   .logo_navbar img{
     width: 110px !important;

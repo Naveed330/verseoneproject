@@ -20,7 +20,8 @@ function Uiguide() {
                 <div className="container">
                     <p className='ui-main-heading'>For Media Outlets and Partners</p>
                     <div className='row'>
-                        <div className='col-lg-6 col-md-6 col-sm-12'>
+                        <div className='col-lg-6 col-md-6 col-sm-12 grid-content-ui'>
+                            <div className='grid-content'>
                             <p className='sec2-line'>Welcome to our partners’ guidelines and assets hub. We <br></br>
                                 want to make it easy for you to interact with the VerseOne<br></br>
                                 Distribution Brand while respecting our brand and legal/<br></br>
@@ -28,9 +29,10 @@ function Uiguide() {
                                 developed to ensure that all VerseOne Distribution users<br></br>
                                 receive the same brand identity – no matter which media<br></br> platform they find us.</p>
 
-                            <p className='sec2-line pb-5'>Please be aware that by using these assets, you agree to<br></br>
+                            <p className='sec2-line' style={{paddingBottom:"50px"}}>Please be aware that by using these assets, you agree to<br></br>
                                 our terms of service and privacy policy.</p>
 
+                        </div>
                         </div>
                         <div className='col-lg-6 col-md-6 col-sm-12'>
                             <div className='ui-btn-grid'>

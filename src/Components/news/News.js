@@ -5,22 +5,22 @@ import news from "../assets/news-pic.png";
 import news2 from "../assets/news2.png";
 import { data } from "./Newsarray";
 import Card from 'react-bootstrap/Card';
-import { BsArrowRight } from "react-icons/bs"
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 function News() {
     return (<>
         <section>
             <Breadcrumb className='bread-crumbs'>
-                <Breadcrumb.Item active className='BREAD-ITEM' href="#" style={{ color: " #EE0979" }}>Home</Breadcrumb.Item>
-                <Breadcrumb.Item active className='BREAD-ITEM' href="">
+                <Breadcrumb.Item active className='BREAD-ITEM' id="BREAD-ITEM" href="#" style={{ color: " #EE0979" }}>Home</Breadcrumb.Item>
+                <Breadcrumb.Item active className='BREAD-ITEM'  id="BREAD-ITEM" href="" style={{color:" #555555"}}>
                     News
                 </Breadcrumb.Item>
-                <Breadcrumb.Item active className='BREAD-ITEM' href="">
+                <Breadcrumb.Item active className='BREAD-ITEM' id="BREAD-ITEM" href="" style={{color:" #555555"}}>
                     New musical festival
                 </Breadcrumb.Item>
             </Breadcrumb>
             <div className='container'>
-                <h1 className='main-news-heading mt-5'>New musical!</h1>
+                <h1 className='main-news-heading mt-5 py-5'>New musical!</h1>
                 <div className='musical-news'>
                     <h1 className='main-news-heading'> festival start now!!</h1>
                     <p className='date'>19/08/2022</p>
@@ -53,7 +53,7 @@ function News() {
                     {
                         data.map((value, index) => {
                             return (<>
-                                <Card className="array-card" key={index} style={{ width: '35rem',borderRadius:"15px" }}>
+                                <Card className="array-card" key={index} style={{ width: '35rem', border:"none" }}>
                                     <Card.Img variant="top" src={value.imgae} />
                                     <Card.Body>
                                         <Card.Title className='card-text'>{value.text}</Card.Title>
@@ -62,8 +62,11 @@ function News() {
                                         <div className='card-div'>
                                             <div className='d-flex gap-3 flex-wrap'>  <p className='card-data'>{value.date}</p>
                                                 <p className='card-data'>{value.name}</p></div>
-                                            <div>
-                                                <p className='card-data'>{value.btn}<BsArrowRight className='card-data' /></p>
+                                            <div className="">
+                                                <button className="card-data d-flex gap-2" style={{ color: "#EE0979" }} >
+                                                    {value.btn}
+                                                    <AiOutlineArrowRight className="card-data mt-2" style={{ color: "#EE0979" }} />
+                                                </button>
                                             </div>
 
 

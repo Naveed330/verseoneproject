@@ -9,7 +9,7 @@ import game from "../assets/game.png";
 import row3 from "../assets/row3.png";
 import pr from "../assets/pr.png";
 import "./Publish.css"
-import ApplyPublish from "./ApplyPublish";
+import {ApplyPublish} from "../publish/ApplyPublish";
 function Publishing() {
   return (
     <>
@@ -50,11 +50,10 @@ function Publishing() {
       <div className="container">
         <div className="row">
           <div
-            className="col-lg-4 col-md-6 col-sm-12"
-            id="publish-grid"
-            style={{ backgroundColor: "#F5F5F5" }}
-          >
-            <div className="row1">
+            className="col-lg-4 col-md-6 col-sm-12 align-grid">
+            <div className="row1"
+              id="publish-grid"
+              style={{ backgroundColor: "#F5F5F5",height:"192px" }}>
               <img src={You} alt="" />
             </div>
           </div>
@@ -65,12 +64,10 @@ function Publishing() {
           </div>
 
           <div
-            className="col-lg-4 col-md-6 col-sm-12"
-            id="publish-grid"
-            style={{ backgroundColor: "#F5F5F5" }}
-          >
-            <div className="row1">
-              <img style={{ width: "100%" }} src={logo} alt="" />
+            className="col-lg-4 col-md-6 col-sm-12 align-grid" >
+            <div className="row1" id="publish-grid"
+            style={{ backgroundColor: "#F5F5F5",height:"192px" }}>
+              <img style={{ width: "80%" }} src={logo} alt="" />
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12" id="publish-grid">
@@ -89,11 +86,9 @@ function Publishing() {
             </div>
           </div>
           <div
-            className="col-lg-4 col-md-6 col-sm-12"
-            id="publish-grid"
-            style={{ backgroundColor: "#F5F5F5" }}
-          >
-            <div className="row1">
+            className="col-lg-4 col-md-6 col-sm-12 align-grid" >
+            <div className="row1"  id="publish-grid"
+            style={{ backgroundColor: "#F5F5F5",height:"192px" }}>
               <img style={{ width: "100%" }} src={game} alt="" />
             </div>
           </div>
@@ -103,17 +98,15 @@ function Publishing() {
             </div>
           </div>
           <div
-            className="col-lg-4 col-md-6 col-sm-12"
-            id="publish-grid"
-            style={{ backgroundColor: "#F5F5F5" }}
-          >
-            <div className="row1">
+            className="col-lg-4 col-md-6 col-sm-12 align-grid" >
+            <div className="row1"  id="publish-grid"
+            style={{ backgroundColor: "#F5F5F5",height:"192px" }}>
               <img style={{ width: "100%" }} src={pr} alt="" />
             </div>
           </div>
         </div>
       </div>
-        <ApplyPublish/>
+      <ApplyPublish />
     </>
   );
 }

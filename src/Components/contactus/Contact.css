@@ -1,6 +1,6 @@
 .contact-heading{
     color: #3D2C56;
-    font-size: 50px;
+    font-size: 64px;
     font-weight: 600;
 
 }
@@ -20,12 +20,19 @@
     height:500px;
   
 } */
+#inputs{
+    outline: none !important;
+}
+input::placeholder{
+    color: #EE0979 !important;
+    font-size: 16px !important;
+}
 .img_div img{
    width: 100%;
    height:650px;
 }
 #grid{
-    padding: 40px 0px 0px 60px;
+    padding-top: 40px ;
 }
 .faq-heading{
     text-align: center;
@@ -49,6 +56,7 @@
     padding: 10px 20px;
     width: 100%;
     margin-top: 30px;
+    outline: none !important;
 
 
 }
@@ -74,9 +82,13 @@
     padding: 0px 30px;
     display: flex;
     justify-content: center !important;
-    margin-left: 60px;
+    /* margin-left: 60px; */
     
 
+}
+.accordion-button{
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 .sec-grid{
     /* display: flex; */
@@ -96,6 +108,12 @@
     padding: 10px 30px;
     border-radius: 30px;
     font-size: 24px ;
+
+}
+.position-div{
+    display: flex;
+    justify-content: end;
+    /* margin-left: -90px !important; */
 
 }
 .contact-btn-div{
@@ -140,6 +158,7 @@
 .accordion-button::after{
     background-image: url("../assets/vector.png");
     height: 25px;
+    margin-bottom: 12px;
 }
 .accordion-button:not(.collapsed)::after {
     background-image: url("../assets/vector.png") ;
@@ -159,7 +178,7 @@
 }
 .accordion-button{
     color: #3D2C56 !important;
-    font-size: 20px !important;
+    font-size: 24px !important;
     font-weight: 600 !important;
     gap: 20px;
 }
@@ -167,6 +186,18 @@
     /* display: flex; */
     align-items: center;
     height: 400px;
+}
+@media (max-width:990px) {
+    .position-div{
+        justify-content: center !important;
+        margin-left: 0px !important;
+    }
+    .position-grid{
+        display: flex !important;
+        justify-content: center !important;
+        margin-left: 0px !important;
+    }
+    
 }
 @media (max-width:940px) {
     .contact-main-div{
@@ -187,6 +218,12 @@
 @media (max-width:510px) {
     .contact-grid-div{
         margin-left: 20px !important;
+    }
+    .input-datalist{
+        width: 100% !important;
+    }
+    .form_position{
+        width: 100%;
     }
    
 }
@@ -216,6 +253,12 @@
     .Faq-div{
         margin-top: 160px;
     }
+    .contact-heading{
+        color: 50px;
+    }
+    .contact-heading{
+        margin-top: 25px;
+    }
   
    
 }
@@ -224,11 +267,26 @@
         margin-left: -25px !important;
     }
     .img_div img {
-        height: 750px;
+        height: 770px;
     }
     #grid{
         padding: 0px !important;
     }
   
    
+}
+@media (max-width:330px) {
+    .contact-heading{
+        text-align: center;
+    }
+    .contact-content{
+        text-align: center;
+    }
+
+}
+@media (max-width:310px) {
+    #BREAD-ITEM{
+        font-size: 12px !important;
+    }
+    
 }

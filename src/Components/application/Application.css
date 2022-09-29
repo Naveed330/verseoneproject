@@ -1,3 +1,22 @@
+.form_position{
+    position: relative;
+}
+.svg_icon{
+    position: absolute;
+    right: 14px;
+    top: 10px;
+    font-size: 25px;
+    color: #555555;
+}
+.input-bar::placeholder{
+    color: #EE0979 !important;
+}
+.input-datalist::placeholder{
+    color: #EE0979 !important;
+}
+.input-bars::placeholder{
+    color: #EE0979 !important;
+}
 .application-div {
     width: 100%;
 }
@@ -11,6 +30,9 @@
     background-position: center;
     background-position: fixed;
 
+}
+.input-bar::placeholder{
+    color: #EE0979;
 }
 
 .application-heading {
@@ -69,7 +91,19 @@
     border: 0.5px solid #555555;
     padding: 8px 24px;
     background-color: white !important;
+    color: #EE0979;
 }
+.input-datalist{
+    width: 100% !important;
+    border-radius: 30px;
+    outline: none;
+    border: 0.5px solid #555555;
+    padding: 8px 24px;
+    background-color: white !important;
+    color: #EE0979;
+}
+
+
 .input-bars::placeholder{
     color: #EE0979;
 }
@@ -121,102 +155,15 @@
 
 }
 
-/* @media (max-width:1500px) {
-    .application-heading {
-        padding: 0px !important;
-        font-size: 60px;
-    }
- .application2 {
-        padding: 0px !important;
-        font-size: 60px;
- }
- .application-content {
-        top: 380px !important;
-}
-
-} */
-
-/* @media (max-width:1350px) {
-    .application-heading {
-        padding: 0px !important;
-        font-size: 50px;
- }
-.application2 {
-        padding: 0px !important;
-        font-size: 60px;
-        left: 295px;
-        top: 159px;
-
-    }
- .application-content {
-        top: 355px !important;
- }
-
-} */
-/* @media (max-width:1250px) {
-    .application-heading {
-        padding: 0px !important;
-        font-size: 50px;
-        top: 50px !important;
- }
- .application2 {
-        padding: 0px !important;
-        font-size: 50px;
-        top: 129px;
-        left: 279px;
- }
- .application-content {
-        top: 320px !important;
- }
-
-} */
-
-/* @media (max-width:1100px) {
-    .application-heading {
-        padding: 0px !important;
-        font-size: 50px;
-        top: 60px !important;
-        line-height: 80px !important;
- }
- .application2 {
-        padding: 0px !important;
-        font-size: 50px;
-
-    }
- .application-content {
-        top: 290px !important;
-        font-size: 15px;
- }
-
-} */
-
-/* @media (max-width:1030px) {
-    .application-heading {
-        padding: 0px !important;
-        font-size: 50px;
-        top: 60px !important;
-        line-height: 60px !important;
- }
-
-    .application2 {
-        padding: 0px !important;
-        font-size: 50px;
-
-    }
-
-    .application-content {
-        top: 250px !important;
-        font-size: 15px;
- }
-
-} */
-
 @media (max-width:880px) {
     .application-heading {
         padding: 0px !important;
         font-size: 40px;
         top: 60px !important;
         line-height: 60px !important;
+ }
+    .application-pic{
+    height: 500px !important;
  }
 
     .application2 {
@@ -285,7 +232,7 @@
 @media (max-width:630px) {
     .application-heading {
         padding: 0px !important;
-        font-size: 30px;
+        font-size: 33px;
         top: 60px !important;
         line-height: 40px !important;
         left: 60px;
@@ -299,7 +246,7 @@
 
     .application-content {
         top: 160px !important;
-        font-size: 10px;
+        font-size: 14px;
         left: 60px !important;
  }
 
@@ -311,13 +258,21 @@
     }
 
 }
+@media (max-width:510px) {
+    #input{
+        width: 100%;
+  }
+ #inputs{
+    width: 100%;
+ }
+}
 
 @media (max-width:395px) {
     .application-heading {
         padding: 0px !important;
         font-size: 20px;
         top: 60px !important;
-        line-height: 20px !important;
+        line-height: 0px !important;
         left: 30px;
  }
 
@@ -333,6 +288,7 @@
         font-size: 8px;
         left: 30px !important;
         top: 131px !important;
+        margin-top: 31px !important;
  }
 
     .application-pic img {
@@ -341,13 +297,9 @@
     .content{
         font-size: 25px;
     }
+    .application-pic{
+        height: 210px !important;
+        padding-top: 20px;
+    }
 
-}
-@media (max-width:510px) {
-    #input{
-        width: 100%;
-  }
- #inputs{
-    width: 100%;
- }
 }

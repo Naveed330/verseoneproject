@@ -42,6 +42,7 @@ function Form() {
                     <div style={{ display: "flex", justifyContent: "center", gap: "30px", flexWrap: "wrap" }}>
                         <input
                             className="inputbar"
+                            style={{ color: "#EE0979" }}
                             id="inputs"
                             placeholder="Name"
                             name="name"
@@ -51,6 +52,7 @@ function Form() {
                         />
                         <input
                             className="inputbar"
+                            style={{ color: "#EE0979" }}
                             id="inputs"
                             placeholder="Email"
                             name="lname"
@@ -63,6 +65,7 @@ function Form() {
 
                     <input
                         className="inputbars"
+                        style={{ color: "#EE0979" }}
                         placeholder="Subject"
                         name="subject"
                         type="text"
@@ -70,8 +73,8 @@ function Form() {
                         onChange={handleChange}
                     /><br></br>
                     <input
-                        style={{ height: '200px' }}
-                        className="inputbars"
+                        style={{ paddingBottom: "150px", color: "#EE0979" }}
+                        className="inputbars pt-3"
                         placeholder="How can we help you?"
                         type="text"
                         name="help"

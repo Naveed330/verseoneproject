@@ -4,10 +4,10 @@ import application from "../assets/application.png";
 import Form from "../application/Form";
 import "../application/Application.css";
 import Application from "../application/Application";
-function ApplyPublish() {
+export const ApplyPublish = () => {
   return (
     <>
-       <div className="application-div mt-5">
+      <div className="application-div mt-5">
         <div className="application-pic  d-flex align-items-center">
           <div className="container">
             <p className="application-heading">Apply for Publishing </p>
@@ -39,7 +39,7 @@ function ApplyPublish() {
         <Form />
       </div>
       {/* <Application/> */}
-     
+
       {/* <div className="container">
         <p className="content">
           Application Form for Digital Music Publishing
@@ -55,4 +55,4 @@ function ApplyPublish() {
   );
 }
 
-export default ApplyPublish;
+// export default ApplyPublish;

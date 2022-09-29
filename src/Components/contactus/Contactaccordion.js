@@ -4,9 +4,9 @@ import "./Contact.css";
 function BasicExample() {
   return (<>
     <Accordion >
-      <Accordion.Item eventKey="0">
+      <Accordion.Item eventKey="0" style={{borderBottom:"1px solid #CACACA"}}>
         <Accordion.Header className="Accordion-Header">You believe that you may be owed royalties from Verse One Distribution, you want to know who to contact for assistance?</Accordion.Header>
-        <Accordion.Body>
+        <Accordion.Body className='pb-5 mb-5'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -16,7 +16,7 @@ function BasicExample() {
           culpa qui officia deserunt mollit anim id est laborum.
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="1">
+      <Accordion.Item eventKey="1"  style={{borderBottom:"1px solid #CACACA"}}>
         <Accordion.Header className="Accordion-Header">You found your music being distributed or sold illegally on another web site or service and you want to report this?</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

@@ -10,8 +10,10 @@ import "./Navbar.css";
 import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 function NavScrollExample() {
-  return (
-    <Navbar bg="#FFFFFF" expand="lg">
+  return (<>   
+  
+  
+   <Navbar bg="#FFFFFF" expand="lg">
       <Container fluid>
         <Navbar.Brand href="#">
           <div className="logo_navbar">
@@ -21,7 +23,7 @@ function NavScrollExample() {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="m-auto my-2 my-lg-0"
+            className="m-auto my-2 my-lg-0 nav-data"
             style={{ display: "flex", gap: "40px" }}
             navbarScroll
           >
@@ -145,7 +147,8 @@ function NavScrollExample() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-  );
+    </>
+ );
 }
 
 export default NavScrollExample;

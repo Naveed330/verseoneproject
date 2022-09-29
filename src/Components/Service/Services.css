@@ -53,6 +53,9 @@
   gap: 30px;
   flex-wrap: wrap !important;
 }
+#row5{
+  margin-bottom: 60px;
+}
 
 .bubble {
   height: 190px;

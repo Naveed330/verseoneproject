@@ -19,6 +19,7 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+      text-align: center;
   }
   .sec-2{
       background-image: url("../assets//ui-background.png");
@@ -38,7 +39,8 @@
       text-align: center;
       color: white;
       font-size: 64px;
-      padding-top: 30px;
+      padding-top: 50px;
+
   
   }
   .ui-btn-grid{
@@ -170,6 +172,12 @@
       width: 100%;
       max-width: 160px;
   }
+  @media (max-width:1000px){
+    .sec2-line{
+        font-size: 15px;
+        padding-top: 10px ;
+    }
+  } 
   @media (max-width:990px) {
       .sec3-line{
           font-size: 12px;
@@ -212,24 +220,28 @@
           font-size: 16px;
       }
       .sec-3{
-          margin-top: 50px;
+          margin-top: 30px;
   
       }
       .sec4{
-          margin-top: 50px;
+          margin-top: 30px;
   
       }
       .sec5{
-          margin-top: 50px;
+          margin-top: 30px;
   
       }
       .sec6{
-          margin-top: 50px;
+          margin-top: 30px;
   
       }
       .sec7{
           margin-top: 70px;
   
+      }
+      .grid-content-ui{
+        display: flex;
+        justify-content: center;
       }
       
    
@@ -238,4 +250,35 @@
   
       
   }
+  @media (max-width:580px) {
+    .ui-content{
+        font-size: 40px;
+    }
+    .ui-main-heading{
+        font-size: 50px;
+    }
+
+  }
+  @media (max-width:468px) {
+    .ui-content{
+        font-size: 30px;
+    }
+    .ui-main-heading{
+        font-size: 30px;
+    }
+    .sec4-img-div{
+        height: 370px !important;
+    }
+
+  }
+  @media (max-width:360px) {
+    .ui-content{
+        font-size: 25px;
+    }
+    .ui-main-heading{
+        font-size: 30px;
+    }
+
+  }
+  
   

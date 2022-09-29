@@ -2,6 +2,7 @@
     color: #3D2C56;
     font-size: 64px;
     font-weight: 600;
+    padding-bottom: 0px !important;
 }
 .main-news{
     font-weight: 600;
@@ -45,7 +46,7 @@
 .news-sec3{
     color: #000000;
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 650;
     margin-bottom: 40px;
     text-align: center;
     margin-top: 80px;
@@ -56,6 +57,7 @@
    justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px !important;
+    padding-bottom: 60px;
 }
 .card-div{
     display: flex;
@@ -72,6 +74,10 @@
     color:#7E7E7E ;
     font-size: 20px;
     font-weight: 300;
+    line-height: 23px;
+}
+.card-body{
+    padding: 10px 0px 0px 0px;
 }
 .card-data{
     color: #3D2C56;
@@ -140,7 +146,7 @@
     padding: 20px 25px;
 }
 #c-text{
-    font-size: 40px !important;
+    font-size: 50px !important;
 }
 .pagination-div{
     display: flex;

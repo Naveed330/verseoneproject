@@ -1,0 +1,89 @@
+/* @font-face {
+    font-family: "Lorin_bold";
+    src: url(../Fonts/Lorin-Bold.eot);
+} */
+.BREAD-ITEM{
+    /* color: #EE0979 !important; */
+    font-size: 20px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+.main_content{
+    color:#3D2C56 ;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.term-heading{
+    color:#3D2C56 ;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.term-content{
+    color: #3D2C56;
+    font-size: 24px;
+    /* font-family: "Lorin_bold" !important; */
+}
+@media (max-width:770px) {
+    .main_content{
+        font-size: 50px;
+
+
+    }
+    .term-heading{
+        font-size: 25px;
+    }
+    .term-content{
+        font-size: 20px;
+
+    }
+    .BREAD-ITEM {
+        font-size: 16px;
+    }
+    
+}
+@media (max-width:770px) {
+    .main_content{
+        font-size: 40px;
+
+
+    }
+    .term-heading{
+        font-size: 20px;
+    }
+    .term-content{
+        font-size: 15px;
+
+    }
+    .BREAD-ITEM {
+        font-size: 16px;
+    }
+    
+}
+@media (max-width:435px) {
+    .main_content{
+        font-size: 30px;
+
+
+    }
+    .term-heading{
+        font-size: 15px;
+    }
+    .term-content{
+        font-size: 10px;
+
+    }
+    .BREAD-ITEM {
+        font-size: 16px;
+    }
+    
+}
+@media (max-width:320px) {
+    .main_content{
+        font-size: 25px;
+
+
+    }
+}

@@ -16,6 +16,7 @@ import News from "./Components/news/News";
 import Newshome from "./Components/news/Newshow";
 import Publishing from "./Components/publish/Publish";
 import Contact from "./Components/contactus/Contact";
+import Term from "./Components/Terms/Term.js"
 function App() {
   return (
     <div>
@@ -34,6 +35,7 @@ function App() {
           <Route path="/News" element={<News />} />
           <Route path="/Publishing" element={<Publishing />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/Term" element={<Term/>} />
         </Routes>
         <Footer />
       </Router>

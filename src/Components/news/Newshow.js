@@ -1,7 +1,7 @@
 import React from "react";
 import "./News.css";
 import { Images } from "./Newsarray";
-import { BsArrowRight, BsMenuButtonWide } from "react-icons/bs";
+import { AiOutlineArrowRight} from "react-icons/ai";
 import Card from "react-bootstrap/Card";
 import Breadcrumb from "react-bootstrap/Breadcrumb";
 import snap from "../assets/nwes-snap.png";
@@ -16,7 +16,7 @@ function Newshome() {
   };
   return (
     <>
-      <section>
+      <section style={{marginTop:"40px"}}>
         <Breadcrumb className="bread-crumbs">
           <Breadcrumb.Item
             active
@@ -26,7 +26,7 @@ function Newshome() {
           >
             Home
           </Breadcrumb.Item>
-          <Breadcrumb.Item active className="BREAD-ITEM" href="">
+          <Breadcrumb.Item active className="BREAD-ITEM" href="" style={{color:" #555555"}}>
             News
           </Breadcrumb.Item>
         </Breadcrumb>
@@ -51,13 +51,13 @@ function Newshome() {
                   className="card-grid"
                   style={{
                     width: "100%",
-                    borderRadius: "15px",
+                   
                     border: "none",
                   }}
                 >
                   <Card.Body>
-                    <Card.Title className="c-text" id="c-text">
-                      New musical festival start now!!!
+                    <Card.Title className="c-text" id="c-text" >
+                      New musical festival<br></br> start now!!!
                     </Card.Title>
                     <Card.Text className="c-paragraph mt-5">
                       As a result of musical works being spread worldwide like
@@ -76,7 +76,7 @@ function Newshome() {
                       <div>
                         <button onClick={readmorebtn} className="c-data mt-1">
                           <p>Read now</p>
-                          <BsArrowRight className="c-data mb-1" />
+                          <AiOutlineArrowRight className="c-data mb-2" />
                         </button>
                       </div>
                     </div>
@@ -99,7 +99,7 @@ function Newshome() {
                   <Card
                     className="card-width"
                     key={index}
-                    style={{ width: "35rem", borderRadius: "15px" }}
+                    style={{ width: "35rem",border:"none"}}
                   >
                     <Card.Img variant="top" src={value.imgae} />
                     <Card.Body>
@@ -115,11 +115,11 @@ function Newshome() {
                           <p className="card-data">{value.date}</p>
                           <p className="card-data">{value.name}</p>
                         </div>
-                        <div>
-                          <button className="card-data gap-1" onClick={readmorebtn}>
+                        <div className="">
+                          <button className="card-data d-flex gap-2" style={{color:"#EE0979"}} onClick={readmorebtn}>
                             
                             {value.btn}
-                            <BsArrowRight className="card-data" />
+                            <AiOutlineArrowRight className="card-data mt-2" style={{color:"#EE0979"}}/>
                           </button>
                         </div>
                       </div>
